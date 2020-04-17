@@ -6,17 +6,15 @@ public class Test : MonoBehaviour
 {
     
     void Start()
-    {
-        int a = 14;
-        int b = 12;
-        int c = 10;
-        if (a < b)
-            Debug.Log("nope");
-        else if (a > c)
-            Debug.Log("Yep");
-        else
-            Debug.Log("я лох");
-
+    {               
+        for (int i = 0 ; i < 11; i++)
+        {
+            Debug.Log(i);
+        }
+        for (int i = 0 ; i < 5; i++)
+        {
+            Debug.Log("Илья лох");
+        }
     }
 
     
