@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
-        
+        int a = 14;
+        int b = 12;
+        int c = 10;
+        if (a < b)
+            Debug.Log("nope");
+        else if (a > c)
+            Debug.Log("Yep");
+        else
+            Debug.Log("я лох");
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
+    
 }
